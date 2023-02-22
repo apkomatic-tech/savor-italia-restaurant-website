@@ -1,8 +1,17 @@
 import type { LinksFunction, MetaFunction } from '@remix-run/node';
-import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react';
+import {
+  Links,
+  LiveReload,
+  Meta,
+  Outlet,
+  Scripts,
+  ScrollRestoration
+} from '@remix-run/react';
 
 import tailwindStyles from '~/tailwind.css';
+
 import TopHeader from './components/layout/TopHeader';
+import Footer from './components/layout/Footer';
 
 export const meta: MetaFunction = () => ({
   charset: 'utf-8',
@@ -38,11 +47,21 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <TopHeader />
-        <Outlet />
-        <ScrollRestoration />
-        <Scripts />
-        <LiveReload />
+        <div
+          className="grid h-screen"
+          style={{
+            gridTemplateRows: 'max-content 1fr max-content'
+          }}
+        >
+          <TopHeader />
+          <main>
+            <Outlet />
+          </main>
+          <ScrollRestoration />
+          <Scripts />
+          <LiveReload />
+          <Footer />
+        </div>
       </body>
     </html>
   );
