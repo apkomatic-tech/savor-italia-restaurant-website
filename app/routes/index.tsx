@@ -1,12 +1,12 @@
 import { Link } from '@remix-run/react';
-import pizzaBackground from '../../public/pizza-bg.jpg';
+import heroBg from '../../public/hero.jpg';
 
 export default function Index() {
   return (
-    <div className="relative flex min-h-max items-center justify-center overflow-hidden bg-accent py-56">
+    <div className="relative flex min-h-max items-center justify-center overflow-hidden bg-accent py-56 md:min-h-[70vh]">
       <img
         className="absolute inset-0 h-full w-full object-cover bg-blend-hue brightness-50  "
-        src={pizzaBackground}
+        src={heroBg}
         alt=""
         aria-hidden
       />

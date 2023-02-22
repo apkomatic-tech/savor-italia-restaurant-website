@@ -38,7 +38,7 @@ export default function TopHeader() {
         <div className="flex items-center justify-between py-8">
           <Link
             to="/"
-            className="font-serif text-5xl text-accent"
+            className="font-serif text-4xl text-accent md:text-5xl lg:text-6xl"
           >
             Nicola's Kitchen
           </Link>
@@ -52,7 +52,7 @@ export default function TopHeader() {
           <nav
             className={`${
               navOpen ? '' : 'hidden'
-            } fixed top-0 right-0 z-[999] h-full w-6/12 border-l-2 border-accentLighter bg-dark pt-4 md:static md:block md:w-auto md:border-0 md:bg-transparent md:py-0`}
+            } fixed top-0 right-0 z-[999] h-full w-6/12 border-l border-accentLighter bg-dark pt-4 md:static md:block md:w-auto md:border-0 md:bg-transparent md:py-0`}
           >
             <ul className="grid grid-flow-row gap-6 md:grid-flow-col">
               <li className="flex justify-center">
