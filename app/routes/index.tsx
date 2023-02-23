@@ -24,6 +24,7 @@ export default function Index() {
           <div className="mt-8">
             <Link
               to="/order"
+              prefetch="intent"
               className="inline-block w-full rounded-md bg-primary py-2 px-3 text-center text-xl font-bold text-white transition-colors duration-200 hover:bg-accent sm:w-2/4 md:w-auto md:min-w-[300px]"
             >
               Order
@@ -36,7 +37,7 @@ export default function Index() {
           <h2 className="mb-6 font-serif text-3xl">
             Authentic Italian cuisine.
           </h2>
-          <p className="text-lg leading-relaxed text-black">
+          <p className="mb-6 text-lg leading-relaxed text-black">
             Our menu offers a variety of classic dishes, made with fresh
             ingredients and traditional recipes. From savory pasta dishes to
             wood-fired pizzas, we have something for everyone. And don't forget
@@ -44,6 +45,13 @@ export default function Index() {
             and cannoli. Experience Italy's rich culinary heritage right in your
             neighborhood. We can't wait to serve you!
           </p>
+          <Link
+            to="/menu"
+            prefetch="intent"
+            className="inline-block rounded-md bg-accent py-2 px-12 text-center text-lg font-bold text-white transition-colors duration-200 hover:bg-primary"
+          >
+            Check our Menu
+          </Link>
         </div>
       </div>
     </>
