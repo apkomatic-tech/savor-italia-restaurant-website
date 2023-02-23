@@ -26,7 +26,7 @@ export default function MenuRoute() {
   return (
     <section className="mt-16 mb-24">
       {/* tabs */}
-      <ul className="mb-8 flex justify-center">
+      <ul className="mb-14 flex justify-center font-bold">
         <li className="mx-2">
           <button
             type="button"
