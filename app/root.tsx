@@ -5,7 +5,8 @@ import {
   Meta,
   Outlet,
   Scripts,
-  ScrollRestoration
+  ScrollRestoration,
+  useCatch
 } from '@remix-run/react';
 
 import tailwindStyles from '~/tailwind.css';
@@ -62,6 +63,40 @@ export default function App() {
           <LiveReload />
           <Footer />
         </div>
+      </body>
+    </html>
+  );
+}
+
+export function CatchBoundary() {
+  const caught = useCatch();
+
+  return (
+    <html>
+      <head>
+        <title>Nicola's Kitchen - Not Found</title>
+        <Meta />
+        <Links />
+      </head>
+      <body>
+        <div
+          className="grid h-screen"
+          style={{
+            gridTemplateRows: 'max-content 1fr max-content'
+          }}
+        >
+          <TopHeader />
+          <main className="mx-auto my-16 flex max-w-xl items-center text-center">
+            <h1 className="mb-12 text-3xl md:text-4xl">
+              {caught.status === 404
+                ? `${caught.status}: Page Not Found`
+                : 'Page Error'}
+            </h1>
+          </main>
+          <Footer />
+        </div>
+
+        <Scripts />
       </body>
     </html>
   );
