@@ -78,6 +78,10 @@ export default function TopHeader() {
                   label: 'Order'
                 },
                 {
+                  href: '/catering',
+                  label: 'Catering'
+                },
+                {
                   href: '/contact',
                   label: 'Contact'
                 }
