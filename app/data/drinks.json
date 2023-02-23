@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Negroni",
+    "price": 10.99,
+    "description": "A classic Italian cocktail made with gin, sweet vermouth, and Campari."
+  },
+  {
+    "title": "Aperol Spritz",
+    "price": 9.99,
+    "description": "A refreshing cocktail made with Aperol, Prosecco, and soda water."
+  },
+  {
+    "title": "Limoncello",
+    "price": 8.99,
+    "description": "A sweet and tangy lemon liqueur, usually served chilled as a digestif."
+  },
+  {
+    "title": "Peroni Nastro Azzurro",
+    "price": 5.99,
+    "description": "A popular Italian lager beer, with a crisp and refreshing taste."
+  },
+  {
+    "title": "Chianti Classico",
+    "price": 12.99,
+    "description": "A dry and fruity red wine, made from Sangiovese grapes grown in the Chianti region of Tuscany."
+  }
+]

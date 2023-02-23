@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Margherita Pizza",
+    "price": 12.99,
+    "description": "Classic pizza with tomato sauce, mozzarella cheese, and fresh basil leaves."
+  },
+  {
+    "title": "Spaghetti Carbonara",
+    "price": 15.99,
+    "description": "Pasta dish made with spaghetti, eggs, parmesan cheese, bacon, and black pepper."
+  },
+  {
+    "title": "Chicken Parmigiana",
+    "price": 18.99,
+    "description": "Breaded chicken breast topped with tomato sauce and melted mozzarella cheese, served with spaghetti."
+  },
+  {
+    "title": "Linguine alle Vongole",
+    "price": 22.99,
+    "description": "Pasta dish made with linguine, clams, garlic, white wine, and parsley."
+  },
+  {
+    "title": "Osso Buco alla Milanese",
+    "price": 32.99,
+    "description": "Veal shanks braised with vegetables, white wine, and broth, served with saffron risotto."
+  }
+]
