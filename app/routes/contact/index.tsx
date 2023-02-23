@@ -1,11 +1,23 @@
 import { useTransition } from '@remix-run/react';
 
+import type { ActionArgs } from '@remix-run/node';
+import { redirect } from '@remix-run/node';
+
+export async function action({ request }: ActionArgs) {
+  const body = await request.formData();
+  console.log(Object.fromEntries(body));
+  return redirect('/contact/confirmation');
+}
+
 export default function ContactFormRoute() {
   const { state } = useTransition();
   const isSubmitting = state === 'submitting';
 
   return (
-    <form method="post">
+    <form
+      method="post"
+      action="/contact?index"
+    >
       <div className="mb-6">
         <label
           className="mb-2 inline-block font-bold text-black"

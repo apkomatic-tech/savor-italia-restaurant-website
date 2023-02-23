@@ -1,14 +1,5 @@
 import { Outlet } from '@remix-run/react';
 
-import type { ActionArgs } from '@remix-run/node';
-import { redirect } from '@remix-run/node';
-
-export async function action({ request }: ActionArgs) {
-  const body = await request.formData();
-  console.log(body);
-  return redirect('/contact/confirmation');
-}
-
 export default function ContactRoute() {
   return (
     <div className="my-16 mx-auto max-w-xl px-6">
