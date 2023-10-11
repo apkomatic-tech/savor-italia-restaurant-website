@@ -13,7 +13,7 @@ export default function Index() {
         />
         <div className="relative mx-auto max-w-7xl px-5 text-center">
           <h1 className="mb-5 font-serif text-[80px] leading-none text-light">
-            Nicola's Kitchen
+            Savor Italia
           </h1>
           <p className="text-xl text-light">
             Come join us for breakfast, brunch, lunch or dinner!

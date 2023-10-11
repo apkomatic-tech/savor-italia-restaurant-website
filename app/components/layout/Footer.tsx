@@ -5,12 +5,12 @@ export default function Footer() {
         <div className="mb-6 grid gap-3 md:grid-cols-3">
           <div className="text-center md:text-left">
             <div className="mb-2 font-serif text-xl text-dark">
-              Nicola's Kitchen
+              Savor Italia
             </div>
             <address className="mb-2 text-sm not-italic text-black text-opacity-70">
-              20969 Ventura Blvd.
+              123 Main Street
               <br />
-              Woodland Hills, CA 91364
+              Los Angeles, CA 90001
             </address>
           </div>
           <div className="text-center md:text-left">
@@ -38,25 +38,25 @@ export default function Footer() {
             <div className="mb-2 text-sm text-black text-opacity-70">
               <div>
                 <a
-                  href="tel:8188839477"
+                  href="tel:555555555"
                   className="hover:underline focus:underline"
                 >
-                  818.883.9477
+                  555.555.5555
                 </a>
               </div>
               <div>
                 <a
-                  href="mailto:nicolaswoodlandhills@gmail.com"
+                  href="mailto:savoritalia@example.com"
                   className="hover:underline focus:underline"
                 >
-                  nicolaswoodlandhills@gmail.com
+                  savoritalia@example.com
                 </a>
               </div>
             </div>
           </div>
         </div>
         <div className="mt-4 border-t border-black border-opacity-10 pt-4 text-center text-sm text-black text-opacity-70">
-          {new Date().getFullYear()} &copy; Nicola's Kitchen
+          {new Date().getFullYear()} &copy; Savor Italia
         </div>
       </div>
     </footer>

@@ -4,10 +4,10 @@ export default function CateringRoute() {
       <h1 className="mb-8 font-serif text-4xl text-opacity-100">Catering</h1>
       <p className="mb-4">
         Are you looking to add some delicious Italian flavor to your next event
-        or gathering? Look no further than our catering service at Nicola's
-        Kitchen! Our experienced chefs will prepare authentic Italian dishes
-        with the freshest ingredients, ensuring a memorable and flavorful
-        experience for you and your guests.
+        or gathering? Look no further than our catering service at Savor Italia!
+        Our experienced chefs will prepare authentic Italian dishes with the
+        freshest ingredients, ensuring a memorable and flavorful experience for
+        you and your guests.
       </p>
       <p className="mb-4">
         Whether you're hosting a corporate event, wedding reception, or simply a
@@ -23,10 +23,10 @@ export default function CateringRoute() {
         like Tiramisu and Cannoli.
       </p>
       <p className="mb-4">
-        At Nicola's Kitchen, we pride ourselves on delivering exceptional
-        service and quality to our catering clients. From the initial
-        consultation to the final presentation, we will work with you every step
-        of the way to ensure a seamless and enjoyable experience.
+        At Savor Italia, we pride ourselves on delivering exceptional service
+        and quality to our catering clients. From the initial consultation to
+        the final presentation, we will work with you every step of the way to
+        ensure a seamless and enjoyable experience.
       </p>
       <p className="mb-4">
         So why not add a touch of Italy to your next event? Contact us today to

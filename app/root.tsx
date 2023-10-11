@@ -16,7 +16,7 @@ import Footer from './components/layout/Footer';
 
 export const meta: MetaFunction = () => ({
   charset: 'utf-8',
-  title: "Nicola's Kitchen",
+  title: 'Savor Italia',
   viewport: 'width=device-width,initial-scale=1'
 });
 
@@ -74,7 +74,7 @@ export function CatchBoundary() {
   return (
     <html>
       <head>
-        <title>Nicola's Kitchen - Not Found</title>
+        <title>Savor Italia - Not Found</title>
         <Meta />
         <Links />
       </head>

@@ -9,7 +9,7 @@ export default function OrderRoute() {
       <h1 className="mb-8 font-serif text-4xl">Order Through:</h1>
       <div className="grid gap-8 md:grid-cols-2">
         <a
-          href="https://www.doordash.com/store/nicola's-kitchen-los-angeles-10427/"
+          href="https://www.doordash.com"
           rel="noreferrer noopener"
           target="_blank"
         >
@@ -20,7 +20,7 @@ export default function OrderRoute() {
           </div>
         </a>
         <a
-          href="https://www.grubhub.com/restaurant/nicolas-kitchen-20969-ventura-blvd-woodland-hills/272259"
+          href="https://www.grubhub.com"
           rel="noreferrer noopener"
           target="_blank"
         >

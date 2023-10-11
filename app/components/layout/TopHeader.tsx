@@ -40,7 +40,7 @@ export default function TopHeader() {
             to="/"
             className="font-serif text-4xl text-accent md:text-5xl lg:text-6xl"
           >
-            Nicola's Kitchen
+            Savor Italia
           </Link>
           <button
             type="button"
